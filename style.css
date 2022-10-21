@@ -5,29 +5,26 @@
     font-family: sans-serif;
 }
 
-body{
-    width:100%;
-}
 
 main{
     width: 100%;
-    height: 100vh;
-    display: flex;
+    height: 100%;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
 
 .box-main{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display:flex;
-    justify-content: start;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    max-width: 400px;
     padding:20px;
+    margin-bottom: 250px;
 }
-
 .logo-riot{
     width: 200px;
     padding: 40px;
@@ -41,7 +38,6 @@ form{
     align-items: center;
 
 }
-
 .form-login input{
     background: #E8E6E6;
     width:15rem;
@@ -51,7 +47,6 @@ form{
     border:none;
     margin-top: 5px;
 }
-
 .usuario{
     position: relative;
     right:70px;
@@ -62,7 +57,6 @@ form{
     text-transform: uppercase;
     transition: all 0.25s;
 }
-
 .senha{
     position: relative;
     right:95px;
@@ -73,8 +67,6 @@ form{
     text-transform: uppercase;
     transition: all 0.25s;
 }
-
-
 .icons-nav{
     width: 100%;
     display: flex;
@@ -98,7 +90,6 @@ form{
     left:10px;
     bottom: 5px;
 }
-
 .google-img{
     width:21px;
     height: 21px;
@@ -106,44 +97,37 @@ form{
     left:25px;
     bottom: -5px;
 }
-
 .apple-img{
     width:21px;
     position:relative;
     left:25px;
     bottom: -5px;
 }
-
 .icons-nav .google{
     background: #8A0000;
     width:70px;
     height: 30px;
     border-radius: 2px;
 }
-
 .icons-nav .apple{
     background: #000000;
     width:70px;
     height: 30px;
     border-radius: 2px;
 }
-
 .manter{
     position: relative;
     top: 10px;
     right:115px;
 }
-
 .label-manter{
     position: relative;
     top: -5px;
     right: 55px;
 }
-
 .manter label{
     font-weight: 700;
 }
-
 .btn button{
     background: #FF002E;
     width: 51px;
@@ -155,7 +139,6 @@ form{
     opacity: 0.2;
     cursor:pointer;
 }
-
 .cor-mudar button{
     background-color: #FF002E;
     width: 51px;
@@ -166,7 +149,6 @@ form{
     top:80px;
     cursor:pointer;
 }
-
 .btn img{
     width: 27px;
     width: 27px;
@@ -175,7 +157,6 @@ form{
     width: 27px;
     width: 27px;
 }
-
 .criar{
     display: flex;
     flex-direction: column;
@@ -183,33 +164,25 @@ form{
     position:relative;
     top:90px;
 }
-
 .criar p,.conta{
     font-size: 0.8rem;
     opacity:0.7;
 }
-
 .criar a{
     cursor: pointer;
     color: black;
     text-decoration: none;
 }
-
 .box-img{
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-}
+    height: 100vh;
 
+}
 .box-img img{
     width: 100%;
-    max-width:100%;
-    margin-bottom: 40px;
+    height:100%;
+    object-fit: cover;
 }
-
-
 @media(max-width:900px){
     .box-img{
         display:none;
